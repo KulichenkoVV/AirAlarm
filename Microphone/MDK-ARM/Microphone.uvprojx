@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>USE_NUCLEO_32,USE_HAL_DRIVER,STM32WB55xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32WBxx_HAL_Driver/Inc;../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy;../Drivers/BSP/P-NUCLEO-WB55.USBDongle;../Drivers/CMSIS/Device/ST/STM32WBxx/Include;../Drivers/CMSIS/Include</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32WBxx_HAL_Driver/Inc;../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy;../Drivers/BSP/P-NUCLEO-WB55.USBDongle;../Drivers/CMSIS/Device/ST/STM32WBxx/Include;../Drivers/CMSIS/Include;..\Components\Microphone</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -810,6 +810,21 @@
               <FileName>system_stm32wbxx.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/system_stm32wbxx.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Components/Microphone</GroupName>
+          <Files>
+            <File>
+              <FileName>microphone.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Components\Microphone\microphone.c</FilePath>
+            </File>
+            <File>
+              <FileName>microphone.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Components\Microphone\microphone.h</FilePath>
             </File>
           </Files>
         </Group>
