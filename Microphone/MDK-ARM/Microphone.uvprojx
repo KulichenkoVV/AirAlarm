@@ -829,6 +829,21 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>Components/Indication</GroupName>
+          <Files>
+            <File>
+              <FileName>indication.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Components\Indication\indication.c</FilePath>
+            </File>
+            <File>
+              <FileName>indication.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Components\Indication\indication.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
