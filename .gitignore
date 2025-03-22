@@ -4,6 +4,5 @@
 *.axf
 *.map
 *.lnp
-*.sct
 *.dep
 *.hex
